@@ -27,8 +27,8 @@ To build a **binary classification model** that predicts whether a person is lik
 ## 📂 Project Structure
 
 ```bash
-heart-disease-prediction/
-├── data/
+Predicting-Heart-Problems-Using-LRA/
+├── data_set/
 │   └── heart.csv
 ├── notebook/
 │   └── heart_disease_prediction.ipynb
