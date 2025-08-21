@@ -85,8 +85,8 @@ ALLOWED_HOSTS = ["*"]
 # }
 
 DATABASES = {
-    "default": dj_database_url.config(
-        default=config("DATABASE_URL = postgresql://postgres:SapwUVodRjsrgUfReNehnxATVhKqygxh@postgres.railway.internal:5432/railway")
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL', default="sqlite:///db.sqlite3")
     )
 }
 
