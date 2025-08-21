@@ -2,6 +2,8 @@
 
 This project uses the **Logistic Regression Algorithm (LRA)** to predict the likelihood of heart disease in patients based on various medical attributes. The aim is to assist in early detection and provide actionable insights using data science.
 
+https://web-production-99b87.up.railway.app/
+
 https://dineshkonala.github.io/Predicting-Heart-Problems-Using-LRA/
 ---
 
