@@ -86,7 +86,7 @@ DATABASES = {
 
 DATABASES = {
     "default": dj_database_url.config(
-        default=config("DATABASE_URL")
+        default=config("DATABASE_URL = postgresql://postgres:SapwUVodRjsrgUfReNehnxATVhKqygxh@postgres.railway.internal:5432/railway")
     )
 }
 
