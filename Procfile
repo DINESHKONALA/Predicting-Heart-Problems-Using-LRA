@@ -1,0 +1,1 @@
+web: gunicorn ark_elior.wsgi
