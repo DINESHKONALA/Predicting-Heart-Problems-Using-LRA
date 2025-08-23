@@ -74,6 +74,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'ark_elior.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-99b87.up.railway.app",  # your Railway URL
+]
+
 ALLOWED_HOSTS = ["*"]
 
 # Database
