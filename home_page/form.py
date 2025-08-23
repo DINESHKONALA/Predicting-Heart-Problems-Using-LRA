@@ -11,12 +11,12 @@ class HeartForm(forms.Form):
     coerce=int,  # Converts string → int automatically
     label="Gender"
     )
-    
-    AGE_CHOICES = [(i, i) for i in range(1, 201)]  # 1 → 200
+
+    AGE_CHOICES = [("", "Select Age")] + [(i, i) for i in range(1, 201)]
     age = forms.TypedChoiceField(
-        choices=AGE_CHOICES,
-        coerce=int,
-        label="Age"
+    choices=AGE_CHOICES,
+    coerce=int,
+    label="Age"
     )
 
     # sex = forms.IntegerField(label="Sex (male=1, female=0)")

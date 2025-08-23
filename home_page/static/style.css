@@ -158,6 +158,34 @@ main{
   text-shadow: 0 0 10px rgba(128 , 128, 128, 0.418);
 
 }
+
+
+
+
+/* Radio buttons */
+input[type="radio"] {
+    accent-color: #00bcd4;  /* Modern browsers */
+}
+
+/* Submit button */
+button, input[type="submit"] {
+    background-color: #00bcd4;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #008ba3;
+}
+
+
+
+
 .description{
   font-size: 1.2rem;
   letter-spacing: 0.05rem;

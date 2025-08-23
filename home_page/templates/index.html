@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Predicting Heart Problems Using LRA</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
   </head>
   <body>
     <header>
@@ -116,18 +116,29 @@
         >
           <div class="tag">CHECK-UP &wedbar;</div>
         </div>
+
         <h2>Heart Disease Prediction</h2>
+        <pdata-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          data-aos-duration="1200"
+          class="description">
         <form method="post">
           {% csrf_token %} {{ form.as_p }}
           <button type="submit">Predict</button>
         </form>
+      </p>
 
-        {% if result %}
-        <h3>Prediction: {{ result }}</h3>
-        {% endif %}
+      {% if result %}
+      <h2>Prediction: {{ result }}</h2>
+      {% endif %}
+
+        
+        
       </div>
     </main>
-
+    
     <section id="CONTACT"></section>
     <footer>
       <p>
