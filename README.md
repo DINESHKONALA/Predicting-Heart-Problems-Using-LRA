@@ -41,3 +41,22 @@ Predicting-Heart-Problems-Using-LRA/
 │   └── output_graphs.png
 ├── requirements.txt
 └── README.md
+
+
+
+## to install this project on linux
+
+sudo apt update
+sudo apt install python3 python3-pip python3-venv git -y
+
+git clone https://github.com/DINESHKONALA/Predicting-Heart-Problems-Using-LRA.git
+cd Predicting-Heart-Problems-Using-LRA
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python manage.py runserver 0.0.0.0:8000
+
+

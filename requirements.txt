@@ -1,15 +1,6 @@
 pandas
-numpy
 scikit-learn
-matplotlib
 seaborn
-streamlit
 requests
 django
 joblib
-gunicorn
-psycopg2-binary
-dj-database-url
-python-decouple
-whitenoise
-python-dotenv
